@@ -11,9 +11,10 @@ const instance = {
 const maicon = new Editor(instance)
 
 /* Memento */
-maicon.setContent({nome: 'Maicon', idade: 18})
-maicon.setContent({nome: 'Maicon', idade: 20})
-maicon.restore()
+//maicon.setContent({nome: 'Maicon', idade: 18})
+//maicon.setContent({nome: 'Maicon', idade: 20})
+//maicon.setContent({nome: 'Maicon', idade: 23})
+//maicon.restore()
 //maicon.getHistory()
 //maicon.getState()
 

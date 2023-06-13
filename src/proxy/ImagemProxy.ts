@@ -10,7 +10,11 @@ export class ImagemProxy implements Imagem {
   }
 
   exibir(): void {
-    this.imagemReal === null && (this.imagemReal = new ImagemReal(this.arquivo));
+    if (this.imagemReal === null) {
+      console.log('instanciando')
+      this.imagemReal = new ImagemReal(this.arquivo)
+    }
+
     this.imagemReal.exibir();
   }
 }
